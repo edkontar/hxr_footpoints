@@ -10,7 +10,7 @@ kev=1.6e-9
 LogColloumn=20.
 KK=2.*!PI*e^4*LogColloumn/(kev*kev)
 print,kk
-;stop test blabla bal test
+;stop test blabla bal test testet tetetsttetet
 
 X0=10.*7.25*1e7; 10 arcseconds
 n0=1e11
