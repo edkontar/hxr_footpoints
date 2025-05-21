@@ -16,3 +16,6 @@ The X-ray flux spectrum emitted by the energetic electrons in a magnetic flux tu
 $$I(\epsilon, s)=\frac{1}{4 \pi R^2} n(s) \int_\epsilon^{\infty} N(E, s) \sigma(E, \epsilon) dE $$
 
 where $\sigma(E, \epsilon)$ is the isotropic bremsstrahlung cross section, $R$ is the flare-observer distance.
+
+The density profile was taken from the previous observations see http://dx.doi.org/10.1051/0004-6361:200810719
+
