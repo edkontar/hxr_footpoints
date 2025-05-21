@@ -8,7 +8,7 @@ where $N_0(E)$ is the injected spectrum of energetic electrons, taken to be (Equ
 
 $$\dot{N}_0(E)=\left(\frac{\dot{N}_0}{k_bT}\right)\frac{(k-1)(k-2)}{k^2} \frac{E /k_bT}{\left(1+E/(k_bTk)\right)^k}$$
 
-a power law of $\propto E^{-\delta}$ at $E>> kbT$ and
+where $\dot{N}$ is the total number of accelerated electrons per second. $\dot{N}_0(E)$ becomes a power law of $\propto E^{-k+1}$ at $E>> k_bT$ and
 
 $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
