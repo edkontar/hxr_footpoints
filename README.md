@@ -6,7 +6,7 @@ $$N(E, s)=\dot{N}_0\left(E_0\right) \frac{E}{E_0} $$
 
 where $N_0(E)$ is the injected spectrum of energetic electrons, taken to be 
 
-$$\dot{N}_0(E)=\left(\frac{\dot{N}_0}{kbT}\right)\frac{(k-1)(k-2)}{k^2} \frac{E /kbT}{\left(1+E /kbT\right)^k}$$
+$$\dot{N}_0(E)=\left(\frac{\dot{N}_0}{k_bT}\right)\frac{(k-1)(k-2)}{k^2} \frac{E /k_bT}{\left(1+E/(k_bTk)\right)^k}$$
 
 a power law of $\propto E^{-\delta}$ at $E>> kbT$ and
 
