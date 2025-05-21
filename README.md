@@ -9,7 +9,7 @@ $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
 where $K=2 \pi e^2 \ln \Lambda, \ln \Lambda$ is the Coulomb logarithm, and $e$ is the electron charge. 
 For neutral chromosphere $\ln \Lambda=\ln \Lambda_{e H}=7$ and for fully ionised
-$\ln \Lambda=\ln \Lambda_{e H}=20$ (e.g., Brown 1973; Emslie 1978).
+$\ln \Lambda=\ln \Lambda_{e H}=20$ (e.g., [Brown 1973](http://dx.doi.org/10.1007/BF00152919); Emslie 1978).
 
 The X-ray flux spectrum emitted by the energetic electrons in a magnetic flux tube of cross-sectional area $A$ and observed at 1 AU is given as
 
