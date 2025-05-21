@@ -12,7 +12,7 @@ where $\dot{N}$ is the total number of accelerated electrons per second. $\dot{N
 
 $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
-where $K=2 \pi e^2 \ln \Lambda, \ln \Lambda$ is the Coulomb logarithm, and $e$ is the electron charge. 
+where $n(s)$ is the density along the electron path, $K=2 \pi e^2 \ln \Lambda, \ln \Lambda$ is the Coulomb logarithm, and $e$ is the electron charge. 
 For neutral chromosphere $\ln \Lambda=\ln \Lambda_{e H}=7$ and for fully ionised
 $\ln \Lambda=\ln \Lambda_{e H}=20$ (e.g., [Brown 1973](http://dx.doi.org/10.1007/BF00152919); [Emslie 1978](http://dx.doi.org/10.1086/156371)).
 
