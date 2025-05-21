@@ -104,7 +104,8 @@ pro hxr_footpoints
   
   Window,2
   !P.Multi=[0,1,2]
-  plot, z/h1arc, Ph_eh[1,*]/max(Ph_eh[1,*]),ytitle=tex2idl('I(h)/max(I(h))')
+  plot, z/h1arc, Ph_eh[1,*]/max(Ph_eh[1,*]),ytitle=tex2idl('I(h)/max(I(h))'),$
+    xtitle=tex2idl('height [arcsec]')
   ; for different energies
   max_eps=ee
   max_h=fltarr(N_elements(ee))
