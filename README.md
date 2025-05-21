@@ -21,7 +21,7 @@ The X-ray flux spectrum emitted by the energetic electrons in a magnetic flux tu
 $$I(\epsilon, s)=\frac{1}{4 \pi R^2} n(s) \int_\epsilon^{\infty} \dot{N}(E, s) \sigma(E, \epsilon) dE $$
 
 where $\sigma(E, \epsilon)$ is the isotropic bremsstrahlung cross section, $R$ is the flare-observer distance, so the total thick target flux spectrum at 1au is
-$$I(\epsilon)=\int_0^{h_{max}} \dot{N}(E, s)ds $$
+$$I(\epsilon)=\int_0^{h_{max}} I(E, s)ds $$
 
 The density profile was taken from the previous observations see [Kontar et al 2008](http://dx.doi.org/10.1051/0004-6361:200810719) 
 showing chromospheric neutral number hydrogen density as a function of height
