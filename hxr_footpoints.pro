@@ -4,14 +4,15 @@
 ; latest version May 21, 2025
 
 ;Functions USED:
-function F0_E, ee, e0, k
+function F0_E, ee, Ec, k
   ; Initial distribution of electrons N(E) injected in the corona
+  ; Equation 16 in https://doi.org/10.3847/1538-4357/aafad3
   ; inputs:
   ; ee - energy in keV
-  ; e0 - e0 in keV
-  ; k >2 is the spectral index for ee >> e0
+  ; Ec - Ec in keV
+  ; k >2 is the spectral index for ee >> Ec
   norm=1d36
-  return, norm/E0*(k-1.)*(k-2.)/k^2*(ee/e0)/(1. + ee/e0/k)^k
+  return, norm/Ec*(k-1.)*(k-2.)/k^2*(ee/Ec)/(1. + ee/Ec/k)^k
 end
 
 function density_h, h, h2
@@ -77,21 +78,21 @@ pro hxr_footpoints
   F_Eh=dblarr(Nee,Nz) 
   Ph_Eh=dblarr(Nee,Nz) ; photon spectrum
 
-  E0=3. ;kev 
+  Ec=3. ;kev from Luo et al 2024
   delta=4.
   Window,1
   !P.Multi=[0,1,2]
-  plot_oo,ee,F0_E(ee, e0, delta),xtitle='Energy [keV]', ytitle='Electron Flux Spectrum',$
+  plot_oo,ee,F0_E(ee, Ec, delta),xtitle='Energy [keV]', ytitle='Electron Flux Spectrum',$
       xrange=[3,300],/xs
   loadct,39
   For j=0,N_elements(NN)-1 do begin
     E_N=sqrt(ee^2+2.*KK*NN[j])
-    F_eh[*,j]=ee*F0_E(E_N, e0, delta)/E_N
-    Ph_eh[*, j] = cs ## (F_eh[*, j])*density_h(z[j],h2)*dh/(4*!PI*1.5d13^2)*1e-27
+    F_eh[*,j]=ee*F0_E(E_N, ec, delta)/E_N
+    Ph_eh[*, j] = cs ## (F_eh[*, j])*density_h(z[j],h2)*dh/(4*!PI*1.5d13^2)*1d-27
     IF (j MOD 10) EQ 0 THEN oplot,ee,F_eh[*,j],color=j
   Endfor
   
-  print, 'Total injection rate electrons/sec (above min(ee)) =', int_tabulated(ee,F0_E(ee, E0, delta))
+  print, 'Total injection rate electrons/sec (above min(ee)) =', int_tabulated(ee,F0_E(ee, Ec, delta))
 ;  stop
   
   ; photon spectrum
