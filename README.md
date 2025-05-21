@@ -20,3 +20,4 @@ where $\sigma(E, \epsilon)$ is the isotropic bremsstrahlung cross section, $R$ i
 
 The density profile was taken from the previous observations see [Kontar et al 2008](http://dx.doi.org/10.1051/0004-6361:200810719)
 
+![image](https://github.com/user-attachments/assets/eb4db3c7-5bd7-4725-be1b-273d06a88e31)
