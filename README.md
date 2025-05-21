@@ -6,9 +6,9 @@ $$\dot{N}(E, s)=\dot{N}_0\left(E_0\right) \frac{E}{E_0} $$
 
 where $N_0(E)$ is the injected spectrum of energetic electrons, taken to be (Equation 16 in https://doi.org/10.3847/1538-4357/aafad3 and [Luo et al, 2024](https://doi.org/10.3847/1538-4357/ad6a59))
 
-$$\dot{N}_0(E)=\left(\frac{\dot{N}_0}{k_bT}\right)\frac{(k-1)(k-2)}{k^2} \frac{E /k_bT}{\left(1+E/(k_bTk)\right)^k}$$
+$$\dot{N}_0(E)=\left(\frac{\dot{N}_0}{E_c}\right)\frac{(k-1)(k-2)}{k^2} \frac{E/E_c}{\left(1+E/(kE_c)\right)^k}$$
 
-where $\dot{N}$ is the total number of accelerated electrons per second. $\dot{N}_0(E)$ becomes a power law of $\propto E^{-k+1}$ at $E>> k_bT$ and
+where $\dot{N}$ is the total number of accelerated electrons per second. $\dot{N}_0(E)$ becomes a power law of $\propto E^{-k+1}$ at $E>>E_c$ and
 
 $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
