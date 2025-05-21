@@ -2,7 +2,7 @@
 
 Hard X-ray footpoint simulations are following [Kontar et al, 2010](http://dx.doi.org/10.1088/0004-637X/717/1/250). In the thick-target approximation, the electron flux spectrum versus distance can be written
 
-$$N(E, s)=\dot{N}_0\left(E_0\right) \frac{E}{E_0} $$
+$$\dot{N}(E, s)=\dot{N}_0\left(E_0\right) \frac{E}{E_0} $$
 
 where $N_0(E)$ is the injected spectrum of energetic electrons, taken to be (Equation 16 in https://doi.org/10.3847/1538-4357/aafad3)
 
