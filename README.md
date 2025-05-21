@@ -10,7 +10,7 @@ $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
 where $K=2 \pi e^2 \ln \Lambda, \ln \Lambda$ is the Coulomb logarithm, and $e$ is the electron charge. 
 For neutral chromosphere $\ln \Lambda=\ln \Lambda_{e H}=7$ and for fully ionised
-$\ln \Lambda=\ln \Lambda_{e H}=20$ (e.g., [Brown 1973](http://dx.doi.org/10.1007/BF00152919); Emslie 1978).
+$\ln \Lambda=\ln \Lambda_{e H}=20$ (e.g., [Brown 1973](http://dx.doi.org/10.1007/BF00152919); [Emslie 1978]{http://dx.doi.org/10.1086/156371}).
 
 The X-ray flux spectrum emitted by the energetic electrons in a magnetic flux tube of cross-sectional area $A$ and observed at 1 AU is given as
 
@@ -18,5 +18,5 @@ $$I(\epsilon, s)=\frac{1}{4 \pi R^2} n(s) \int_\epsilon^{\infty} N(E, s) \sigma(
 
 where $\sigma(E, \epsilon)$ is the isotropic bremsstrahlung cross section, $R$ is the flare-observer distance.
 
-The density profile was taken from the previous observations see http://dx.doi.org/10.1051/0004-6361:200810719
+The density profile was taken from the previous observations see [Kontar et al 2008](http://dx.doi.org/10.1051/0004-6361:200810719)
 
