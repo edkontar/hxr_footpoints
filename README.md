@@ -5,8 +5,8 @@ Hard X-ray footpoint simulations are following [Kontar et al, 2010](http://dx.do
 $$N(E, s)=\dot{N}_0\left(E_0\right) \frac{E}{E_0} $$
 
 where $N_0(E)$ is the injected spectrum of energetic electrons, taken to be 
-$$ \dot{N}_0(E)=\left(\frac{\dot{N}_0}{k_{\mathrm{B}} E_0}\right) \frac{(\kappa-1)(\kappa-2)}{\kappa^2} \frac{E / k_{\mathrm{B}} T_\kappa}{\left(1+E / \kappa k_{\mathrm{B}} T_\kappa\right)^\kappa} .
-a power law of $F_0(E) \propto E^{-\delta}$ and
+$$ \dot{N}_0(E)=\left(\frac{\dot{N}_0}{kbT}\right)\frac{(\kappa-1)(\kappa-2)}{\kappa^2} \frac{E /kbT}{\left(1+E /kbT\right)^k}$$
+a power law of $\propto E^{-\delta}$ at $E>> kbT$ and
 
 $$E_0(E, s)^2=E^2+2 K \int_0^s n\left(s'\right) ds'$$
 
